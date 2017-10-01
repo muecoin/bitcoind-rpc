@@ -1,7 +1,7 @@
 {
-  "name": "bitcoind-rpc",
-  "description": "Bitcoin Client Library to connect to Bitcoin Core via RPC",
-  "version": "0.7.0",
+  "name": "bitcoind-rpc-mue",
+  "description": "Bitcoin Client Library to connect to MonetaryUnit Core via RPC",
+  "version": "0.1.0",
   "author": {
     "name": "Stephen Pair",
     "email": "stephen@bitpay.com"
@@ -22,15 +22,21 @@
     {
       "name": "Braydon Fuller",
       "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "Al Z",
+      "email": "awz@empirictechs.com"
     }
   ],
   "keywords": [
     "bitcoin",
-    "rpc"
+    "rpc",
+    "monetaryunit",
+    "mue"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcoind-rpc"
+    "url": "https://github.com/muecoin/bitcoind-rpc-mue"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -47,7 +53,7 @@
     "sinon": "^1.12.2"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/bitcoind-rpc/issues"
+    "url": "https://github.com/muecoin/bitcoind-rpc-mue/issues"
   },
-  "homepage": "https://github.com/bitpay/bitcoind-rpc"
+  "homepage": "https://github.com/muecoin/bitcoind-rpc-mue"
 }
